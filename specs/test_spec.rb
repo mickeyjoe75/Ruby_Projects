@@ -1,39 +1,27 @@
-require('minitest/autorun')
-require_relative('../test.rb')
+require("Minitest/autorun")
+require_relative("../test")
 
-# class TestBankAccount < MiniTest::Test
-#   def test_account_name
-#     account = {
-#       holder_name: "John",
-#       amount: 500,
-#       type: "business"
-#     }
-#     assert_equal("John", get_account_name(account))
-#   end
-# end
+class FunctionsTest < Minitest::Test
+
+  #
+  # def test_add
+  #   result = add(2, 3)
+  #   assert_equal(5, result)
+  # end
+  #
+  # def test_add__negative
+  #   result = add(2, -3)
+  #   assert_equal(-1, result)
+  # end
 
 
-class TestBankAccount < MiniTest::Test
-  def test_account_name
-    account = BankAccount.new("John",500,"business")
-    assert_equal("John", account.name)
+  def test_multiply
+    result = multiply(2,3)
+    assert_equal(6, result)
   end
 
-  def test_account_amount
-    account = BankAccount.new("John",500,"business")
-    assert_equal(500, account.amount)
-  end
 
-  def test_account_type
-    account = BankAccount.new("John",500,"business")
-    assert_equal("business", account.type)
-  end
 
-  def test_set_account_name
-    account = BankAccount.new("John",500,"business")
-    account.name = ("Darren")
-    assert_equal("Darren", account.name)
-  end
 
 
 
