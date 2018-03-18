@@ -21,6 +21,7 @@ p result = find_chicken_by_name(chicken_hashes,"Mabel")
 
 
 
+<<<<<<< HEAD
 
 # total_eggs = 0
 #
@@ -47,6 +48,8 @@ p result = find_chicken_by_name(chicken_hashes,"Mabel")
 # end
 
 
+=======
+>>>>>>> 8c2df8885c78a0f80be8da3b0e4262be2a29555a
 
 
 
@@ -72,6 +75,7 @@ p result = find_chicken_by_name(chicken_hashes,"Mabel")
 
 
 
+<<<<<<< HEAD
 # numbers = [1,2,3,4,5]
 #
 # total = 100
@@ -108,6 +112,28 @@ p result = find_chicken_by_name(chicken_hashes,"Mabel")
 #
 #   p "no luck! try again you idiot!"
 #
+=======
+##Nuber guessing game
+# my_number = rand(10)
+#
+# p "what is my nunber?"
+#
+# value = gets.to_i()
+#
+# while (value != my_number)
+#
+#   if (value > my_number)
+#
+#     p " Too high, you Ijjit"
+#
+#   else
+#
+#     p "Too low"
+#   end
+#
+#   p "no luck! try again you idiot!"
+#
+>>>>>>> 8c2df8885c78a0f80be8da3b0e4262be2a29555a
 #   value = gets.to_i()
 # end
 #
@@ -259,13 +285,20 @@ p result = find_chicken_by_name(chicken_hashes,"Mabel")
 #
 #
 #
+<<<<<<< HEAD
+#
+=======
+>>>>>>> 8c2df8885c78a0f80be8da3b0e4262be2a29555a
 #
 #
 #
 #
 #
 #
+<<<<<<< HEAD
+=======
 #
+>>>>>>> 8c2df8885c78a0f80be8da3b0e4262be2a29555a
 # # # def add(x,y)
 # # #   result = (x + y)
 # # #   return result
@@ -274,6 +307,7 @@ p result = find_chicken_by_name(chicken_hashes,"Mabel")
 # # def multiply(x,y)
 # #   result = (x) * (y)
 # #   return result
+<<<<<<< HEAD
 # # end
 # #
 # #
@@ -291,6 +325,25 @@ p result = find_chicken_by_name(chicken_hashes,"Mabel")
 # #   return "#{word1}, #{word2}"
 # # end
 # #
+=======
+# # end
+# #
+# #
+# #
+# #
+# # def greet(name, time_of_day)
+# #   return "Good #{time_of_day}, #{name}"
+# # end
+# #
+# # p greet('Rick', 'morning')
+# # # => "Good morning, Rick"
+# #
+# #
+# # def combine_words(word1,word2)
+# #   return "#{word1}, #{word2}"
+# # end
+# #
+>>>>>>> 8c2df8885c78a0f80be8da3b0e4262be2a29555a
 #
 #
 #
@@ -376,6 +429,7 @@ p result = find_chicken_by_name(chicken_hashes,"Mabel")
 # #   end
 # #
 # #   p result
+<<<<<<< HEAD
 #
 # #   [Task:]
 # #
@@ -395,6 +449,27 @@ p result = find_chicken_by_name(chicken_hashes,"Mabel")
 # # # end
 # #
 # #
+=======
+#
+# #   [Task:]
+# #
+# # Add a condition for 4 => "resit"
+# # Ask the user to input the score instead of hard coding it
+# #
+#
+#
+#
+#
+#
+#
+# # #
+# # # def sayGoodnight(name)
+# # #   result = "Goodnight, " + name
+# # #   return result
+# # # end
+# #
+# #
+>>>>>>> 8c2df8885c78a0f80be8da3b0e4262be2a29555a
 # # def sayGoodnight(name)
 # #   result = "Goodnight, , #{name}"
 # #   return result
