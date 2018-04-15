@@ -10,3 +10,4 @@ def calculate_area_of_triangle(b,h)
   return ((b * h)/2).to_f.round(3)
 end
 p calculate_area_of_triangle(b,h)
+p "THAT WAS AWESOME"
